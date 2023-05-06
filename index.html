@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meal Finder</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style>
+		
+	</style>
+</head>
+<body>
+
+	<div class="container mt-4">
+		<h1 class="text-center mb-4">Meal Finder</h1>
+
+		<div class="row">
+			<div class="col-md-4">
+				<input type="text" id="search" class="form-control mb-2" placeholder="Enter meal/food title">
+			</div>
+			<div class="col-md-4">
+				<input type="number" id="limit" class="form-control mb-2" placeholder="How many results do you want to see?">
+			</div>
+			<div class="col-md-4">
+				<button id="searchBtn" class="btn btn-primary btn-block mb-2">Search</button>
+			</div>
+		</div>
+
+		<div id="mealSection" class="row mt-4"></div>
+
+	</div>
+    <footer class="text-center">&copy; Meal DB and Developed by Samuel Muabia</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
