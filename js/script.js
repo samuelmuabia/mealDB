@@ -15,6 +15,7 @@ function searchMeals() {
 function show(items){
     const limitInput = document.getElementById('limit').value;
     const mealsContainer = document.getElementById('mealSection');
+    mealsContainer.innerHTML='';
     for(let i=0; i<limitInput; i++) {
         const meal = items.meals[i];
         let mealHTML = document.createElement('div');
